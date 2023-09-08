@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        nav li {
+            margin: 0 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+        .project {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+            </nav>
+            
+    </header>
+
+    <section id="about">
+        <img src="./images/profile.JPG" alt="Picture"
+        width="200"
+        height="350">
+        <h1>
+            Breckin Bartels
+        </h1>
+        <p style="font-family: 'Courier New', Courier, monospace; color: brown">Student</p>
+        <p>
+            I am a junior at Iowa State University studying Software Engineering. 
+        </p>
+    </section>
+
+    <section id="projects">
+        <h1>
+            Projects
+        </h1>
+        <img src="./images/kinze.jpg" alt="kinze"
+        width="300"
+        height="300">
+        
+        <p>
+            At my most recent Co-op, Kinze Manufacturing, I helped create and run software tests to test an app that the company was developing.
+            This was done in Java.
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>
+            You can reach me at <a href = "mailto: breckin.bartels@gmail.com">breckin.bartels@gmail.com</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Breckin Bartels</p>
+    </footer>
+</body>
+</html>
